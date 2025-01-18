@@ -14,10 +14,17 @@
 ## Code
 
 ```
+class Main {
+    public static void main(String args[]) {
+        int arr[] = new int[5];
+        System.out.println("Length of array: " + arr.length);
+    }
+}
 
 ```
 
 ## Output
 
 ```
+Length of array: 5
 ```
