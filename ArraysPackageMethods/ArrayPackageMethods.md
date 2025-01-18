@@ -118,3 +118,23 @@ class Main {
 ```
 Arrays are same: true
 ```
+
+# 6. Make the array variable to store it in ascending order and display the arraydata.
+
+## Code
+```
+import java.util.Arrays;
+
+class Main {
+    public static void main(String args[]) {
+        int arr[] = {5, 4, 3, 2, 1};
+        Arrays.sort(arr);
+        System.out.println("Assending Array: : " + Arrays.toString(arr));
+    }
+}
+```
+
+## Output
+```
+Assending Array: : [1, 2, 3, 4, 5]
+```
