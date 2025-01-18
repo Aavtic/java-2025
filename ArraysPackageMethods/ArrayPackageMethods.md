@@ -28,3 +28,24 @@ class Main {
 ```
 Length of array: 5
 ```
+
+# 2. Convert the array variable and store it in the String variable and display the array values.
+
+## Code
+```
+import java.util.Arrays;
+
+class Main {
+    public static void main(String args[]) {
+        int arr[] = {1, 2, 3, 4};
+        String arr_str = Arrays.toString(arr);
+
+        System.out.println("Array as string: " + arr_str);
+    }
+}
+```
+
+## Output
+```
+Array as string: [1, 2, 3, 4]
+```
