@@ -95,3 +95,26 @@ class Main {
 ```
 Arr: [1, 2, 3, 4] copied: [1, 2, 3, 4]
 ```
+
+
+# 5. Compare two array and check whether the array are same or not.
+
+## Code
+
+```
+import java.util.Arrays;
+
+class Main {
+    public static void main(String args[]) {
+        int arr1[] = {1, 2, 3, 4};
+        int arr2[] = {1, 2, 3, 4};
+
+        System.out.println("Arrays are same: " + Arrays.equals(arr1, arr2));
+    }
+}
+```
+
+## Output
+```
+Arrays are same: true
+```
