@@ -138,3 +138,25 @@ class Main {
 ```
 Assending Array: : [1, 2, 3, 4, 5]
 ```
+
+# 7. Display the array data in descending order.
+
+## Code
+```
+import java.util.*;
+
+class Main {
+    public static void main(String args[]) {
+        int arr[] = {1, 2, 3, 4, 5};
+        Arrays.sort(arr, Collections.reverseOrder());
+
+        System.out.println("Descending Array: : " + Arrays.toString(arr));
+    }
+}
+```
+
+## Output
+
+```
+Assending Array:  [5, 4, 3, 2, 1]
+```
