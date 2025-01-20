@@ -219,3 +219,71 @@ Double: 123121.32
 
 [Process exited 0]
 ```
+
+
+# 4. System.console()
+
+## Code
+
+```
+class Main {
+    public static void main(String args[]) {
+        System.out.println("Enter a String: ");
+        String str = System.console().readLine();
+        System.out.println("String: " + str);
+        
+        System.out.println("Enter a Char:  ");
+        char c = System.console().readLine().charAt(0);
+        System.out.println("Char: " + c);
+
+        System.out.println("Enter a Integer:  ");
+        int i = Integer.parseInt(System.console().readLine());
+        System.out.println("Integer: " + i);
+
+        System.out.println("Enter a Short:  ");
+        int s = Short.parseShort(System.console().readLine());
+        System.out.println("Short: " + s);
+
+        System.out.println("Enter a Long:  ");
+        long l = Long.parseLong(System.console().readLine());
+        System.out.println("Long: " + i);
+
+        System.out.println("Enter a Float:  ");
+        float f = Float.parseFloat(System.console().readLine());
+        System.out.println("Float: " + f);
+
+        System.out.println("Enter a Double:  ");
+        double d = Double.parseDouble(System.console().readLine());
+        System.out.println("Double: " + f);
+    }
+}
+
+```
+
+## Output
+
+```
+Enter a String: 
+Hello There
+String: Hello There
+Enter a Char:  
+12314
+Char: 1
+Enter a Integer:  
+123123
+Integer: 123123
+Enter a Short:  
+12312
+Short: 12312
+Enter a Long:  
+1231414
+Long: 123123
+Enter a Float:  
+12312.123
+Float: 12312.123
+Enter a Double:  
+123123.1231
+Double: 12312.123
+
+[Process exited 0]
+```
