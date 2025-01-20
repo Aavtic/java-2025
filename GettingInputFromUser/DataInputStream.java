@@ -1,37 +1,35 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
+import java.util.Scanner;
 
 class Main {
-    public static void main(String args[]) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter a String: ");
-        String str = br.readLine();
+        String str = sc.nextLine();
         System.out.println("String: " + str);
         
         System.out.println("Enter a Char:  ");
-        char c = br.readLine().charAt(0);
+        char c = sc.nextLine().charAt(0);
         System.out.println("Char: " + c);
 
         System.out.println("Enter a Integer:  ");
-        int i = Integer.parseInt(br.readLine());
+        int i = sc.nextInt();
         System.out.println("Integer: " + i);
 
         System.out.println("Enter a Short:  ");
-        int s = Short.parseShort(br.readLine());
+        int s = sc.nextShort();
         System.out.println("Short: " + s);
 
         System.out.println("Enter a Long:  ");
-        long l = Long.parseLong(br.readLine());
+        long l = sc.nextLong();
         System.out.println("Long: " + i);
 
         System.out.println("Enter a Float:  ");
-        float f = Float.parseFloat(br.readLine());
+        float f = sc.nextFloat();
         System.out.println("Float: " + f);
 
         System.out.println("Enter a Double:  ");
-        double d = Double.parseDouble(br.readLine());
+        double d = sc.nextDouble();
         System.out.println("Double: " + f);
     }
 }
